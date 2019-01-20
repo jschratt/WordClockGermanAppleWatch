@@ -6,3 +6,5 @@ and this "Watchface" is started as App so you have to change the Properties that
 stays when activate the Watch "Einstellungen/Allgemein/Display aktivieren  Beim Armheben letzte App Anzeigen immer"
 
 Have Fun with this Watchface :-)
+
+![alt text](https://github.com/jschratt/WordClockGermanAppleWatch/blob/master/IMG_1833.jpg)
