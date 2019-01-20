@@ -1,0 +1,870 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F49FAFD21F36FB900F475A2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FAFC21F36FB900F475A2 /* AppDelegate.swift */; };
+		1F49FAFF21F36FB900F475A2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FAFE21F36FB900F475A2 /* ViewController.swift */; };
+		1F49FB0221F36FB900F475A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB0021F36FB900F475A2 /* Main.storyboard */; };
+		1F49FB0421F36FBA00F475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB0321F36FBA00F475A2 /* Assets.xcassets */; };
+		1F49FB0721F36FBA00F475A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB0521F36FBA00F475A2 /* LaunchScreen.storyboard */; };
+		1F49FB1221F36FBB00F475A2 /* WordClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FB1121F36FBB00F475A2 /* WordClockTests.swift */; };
+		1F49FB1D21F36FBB00F475A2 /* WordClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FB1C21F36FBB00F475A2 /* WordClockUITests.swift */; };
+		1F49FB2221F36FBB00F475A2 /* WordClock WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F49FB2121F36FBB00F475A2 /* WordClock WatchKit App.app */; };
+		1F49FB2821F36FBB00F475A2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB2621F36FBB00F475A2 /* Interface.storyboard */; };
+		1F49FB2A21F36FBC00F475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB2921F36FBC00F475A2 /* Assets.xcassets */; };
+		1F49FB3121F36FBC00F475A2 /* WordClock WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F49FB3021F36FBC00F475A2 /* WordClock WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F49FB3621F36FBC00F475A2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FB3521F36FBC00F475A2 /* InterfaceController.swift */; };
+		1F49FB3821F36FBC00F475A2 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FB3721F36FBC00F475A2 /* ExtensionDelegate.swift */; };
+		1F49FB3A21F36FBD00F475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB3921F36FBD00F475A2 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F49FB0E21F36FBB00F475A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F49FAF121F36FB900F475A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F49FAF821F36FB900F475A2;
+			remoteInfo = WordClock;
+		};
+		1F49FB1921F36FBB00F475A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F49FAF121F36FB900F475A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F49FAF821F36FB900F475A2;
+			remoteInfo = WordClock;
+		};
+		1F49FB2321F36FBB00F475A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F49FAF121F36FB900F475A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F49FB2021F36FBB00F475A2;
+			remoteInfo = "WordClock WatchKit App";
+		};
+		1F49FB3221F36FBC00F475A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F49FAF121F36FB900F475A2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F49FB2F21F36FBC00F475A2;
+			remoteInfo = "WordClock WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F49FB4121F36FBD00F475A2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F49FB3121F36FBC00F475A2 /* WordClock WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB4521F36FBD00F475A2 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F49FB2221F36FBB00F475A2 /* WordClock WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F49FAF921F36FB900F475A2 /* WordClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49FAFC21F36FB900F475A2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F49FAFE21F36FB900F475A2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F49FB0121F36FB900F475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F49FB0321F36FBA00F475A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F49FB0621F36FBA00F475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F49FB0821F36FBA00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49FB0D21F36FBB00F475A2 /* WordClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49FB1121F36FBB00F475A2 /* WordClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordClockTests.swift; sourceTree = "<group>"; };
+		1F49FB1321F36FBB00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49FB1821F36FBB00F475A2 /* WordClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49FB1C21F36FBB00F475A2 /* WordClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordClockUITests.swift; sourceTree = "<group>"; };
+		1F49FB1E21F36FBB00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49FB2121F36FBB00F475A2 /* WordClock WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordClock WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49FB2721F36FBB00F475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1F49FB2921F36FBC00F475A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F49FB2B21F36FBC00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49FB3021F36FBC00F475A2 /* WordClock WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "WordClock WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F49FB3521F36FBC00F475A2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1F49FB3721F36FBC00F475A2 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1F49FB3921F36FBD00F475A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F49FB3B21F36FBD00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F49FB4F21F3799500F475A2 /* Row1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row1.swift; sourceTree = "<group>"; };
+		1F9542ED21F37BA500C10E21 /* TimeValues.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeValues.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F49FAF621F36FB900F475A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB0A21F36FBB00F475A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB1521F36FBB00F475A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB2D21F36FBC00F475A2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F49FAF021F36FB900F475A2 = {
+			isa = PBXGroup;
+			children = (
+				1F49FAFB21F36FB900F475A2 /* WordClock */,
+				1F49FB1021F36FBB00F475A2 /* WordClockTests */,
+				1F49FB1B21F36FBB00F475A2 /* WordClockUITests */,
+				1F49FB2521F36FBB00F475A2 /* WordClock WatchKit App */,
+				1F49FB3421F36FBC00F475A2 /* WordClock WatchKit Extension */,
+				1F49FAFA21F36FB900F475A2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F49FAFA21F36FB900F475A2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F49FAF921F36FB900F475A2 /* WordClock.app */,
+				1F49FB0D21F36FBB00F475A2 /* WordClockTests.xctest */,
+				1F49FB1821F36FBB00F475A2 /* WordClockUITests.xctest */,
+				1F49FB2121F36FBB00F475A2 /* WordClock WatchKit App.app */,
+				1F49FB3021F36FBC00F475A2 /* WordClock WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F49FAFB21F36FB900F475A2 /* WordClock */ = {
+			isa = PBXGroup;
+			children = (
+				1F49FAFC21F36FB900F475A2 /* AppDelegate.swift */,
+				1F49FAFE21F36FB900F475A2 /* ViewController.swift */,
+				1F49FB0021F36FB900F475A2 /* Main.storyboard */,
+				1F49FB0321F36FBA00F475A2 /* Assets.xcassets */,
+				1F49FB0521F36FBA00F475A2 /* LaunchScreen.storyboard */,
+				1F49FB0821F36FBA00F475A2 /* Info.plist */,
+			);
+			path = WordClock;
+			sourceTree = "<group>";
+		};
+		1F49FB1021F36FBB00F475A2 /* WordClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F49FB1121F36FBB00F475A2 /* WordClockTests.swift */,
+				1F49FB1321F36FBB00F475A2 /* Info.plist */,
+			);
+			path = WordClockTests;
+			sourceTree = "<group>";
+		};
+		1F49FB1B21F36FBB00F475A2 /* WordClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F49FB1C21F36FBB00F475A2 /* WordClockUITests.swift */,
+				1F49FB1E21F36FBB00F475A2 /* Info.plist */,
+			);
+			path = WordClockUITests;
+			sourceTree = "<group>";
+		};
+		1F49FB2521F36FBB00F475A2 /* WordClock WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				1F49FB2621F36FBB00F475A2 /* Interface.storyboard */,
+				1F49FB4F21F3799500F475A2 /* Row1.swift */,
+				1F9542ED21F37BA500C10E21 /* TimeValues.swift */,
+				1F49FB2921F36FBC00F475A2 /* Assets.xcassets */,
+				1F49FB2B21F36FBC00F475A2 /* Info.plist */,
+			);
+			path = "WordClock WatchKit App";
+			sourceTree = "<group>";
+		};
+		1F49FB3421F36FBC00F475A2 /* WordClock WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F49FB3521F36FBC00F475A2 /* InterfaceController.swift */,
+				1F49FB3721F36FBC00F475A2 /* ExtensionDelegate.swift */,
+				1F49FB3921F36FBD00F475A2 /* Assets.xcassets */,
+				1F49FB3B21F36FBD00F475A2 /* Info.plist */,
+			);
+			path = "WordClock WatchKit Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F49FAF821F36FB900F475A2 /* WordClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49FB4621F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClock" */;
+			buildPhases = (
+				1F49FAF521F36FB900F475A2 /* Sources */,
+				1F49FAF621F36FB900F475A2 /* Frameworks */,
+				1F49FAF721F36FB900F475A2 /* Resources */,
+				1F49FB4521F36FBD00F475A2 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F49FB2421F36FBB00F475A2 /* PBXTargetDependency */,
+			);
+			name = WordClock;
+			productName = WordClock;
+			productReference = 1F49FAF921F36FB900F475A2 /* WordClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F49FB0C21F36FBB00F475A2 /* WordClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49FB4921F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClockTests" */;
+			buildPhases = (
+				1F49FB0921F36FBB00F475A2 /* Sources */,
+				1F49FB0A21F36FBB00F475A2 /* Frameworks */,
+				1F49FB0B21F36FBB00F475A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F49FB0F21F36FBB00F475A2 /* PBXTargetDependency */,
+			);
+			name = WordClockTests;
+			productName = WordClockTests;
+			productReference = 1F49FB0D21F36FBB00F475A2 /* WordClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F49FB1721F36FBB00F475A2 /* WordClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49FB4C21F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClockUITests" */;
+			buildPhases = (
+				1F49FB1421F36FBB00F475A2 /* Sources */,
+				1F49FB1521F36FBB00F475A2 /* Frameworks */,
+				1F49FB1621F36FBB00F475A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F49FB1A21F36FBB00F475A2 /* PBXTargetDependency */,
+			);
+			name = WordClockUITests;
+			productName = WordClockUITests;
+			productReference = 1F49FB1821F36FBB00F475A2 /* WordClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		1F49FB2021F36FBB00F475A2 /* WordClock WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49FB4221F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClock WatchKit App" */;
+			buildPhases = (
+				1F49FB1F21F36FBB00F475A2 /* Resources */,
+				1F49FB4121F36FBD00F475A2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F49FB3321F36FBC00F475A2 /* PBXTargetDependency */,
+			);
+			name = "WordClock WatchKit App";
+			productName = "WordClock WatchKit App";
+			productReference = 1F49FB2121F36FBB00F475A2 /* WordClock WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1F49FB2F21F36FBC00F475A2 /* WordClock WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F49FB3E21F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClock WatchKit Extension" */;
+			buildPhases = (
+				1F49FB2C21F36FBC00F475A2 /* Sources */,
+				1F49FB2D21F36FBC00F475A2 /* Frameworks */,
+				1F49FB2E21F36FBC00F475A2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WordClock WatchKit Extension";
+			productName = "WordClock WatchKit Extension";
+			productReference = 1F49FB3021F36FBC00F475A2 /* WordClock WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F49FAF121F36FB900F475A2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Josef Schrattenecker";
+				TargetAttributes = {
+					1F49FAF821F36FB900F475A2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1F49FB0C21F36FBB00F475A2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1F49FAF821F36FB900F475A2;
+					};
+					1F49FB1721F36FBB00F475A2 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1F49FAF821F36FB900F475A2;
+					};
+					1F49FB2021F36FBB00F475A2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					1F49FB2F21F36FBC00F475A2 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 1F49FAF421F36FB900F475A2 /* Build configuration list for PBXProject "WordClock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F49FAF021F36FB900F475A2;
+			productRefGroup = 1F49FAFA21F36FB900F475A2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F49FAF821F36FB900F475A2 /* WordClock */,
+				1F49FB0C21F36FBB00F475A2 /* WordClockTests */,
+				1F49FB1721F36FBB00F475A2 /* WordClockUITests */,
+				1F49FB2021F36FBB00F475A2 /* WordClock WatchKit App */,
+				1F49FB2F21F36FBC00F475A2 /* WordClock WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F49FAF721F36FB900F475A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FB0721F36FBA00F475A2 /* LaunchScreen.storyboard in Resources */,
+				1F49FB0421F36FBA00F475A2 /* Assets.xcassets in Resources */,
+				1F49FB0221F36FB900F475A2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB0B21F36FBB00F475A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB1621F36FBB00F475A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB1F21F36FBB00F475A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FB2A21F36FBC00F475A2 /* Assets.xcassets in Resources */,
+				1F49FB2821F36FBB00F475A2 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB2E21F36FBC00F475A2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FB3A21F36FBD00F475A2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F49FAF521F36FB900F475A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FAFF21F36FB900F475A2 /* ViewController.swift in Sources */,
+				1F49FAFD21F36FB900F475A2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB0921F36FBB00F475A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FB1221F36FBB00F475A2 /* WordClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB1421F36FBB00F475A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FB1D21F36FBB00F475A2 /* WordClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F49FB2C21F36FBC00F475A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F49FB3821F36FBC00F475A2 /* ExtensionDelegate.swift in Sources */,
+				1F49FB3621F36FBC00F475A2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F49FB0F21F36FBB00F475A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F49FAF821F36FB900F475A2 /* WordClock */;
+			targetProxy = 1F49FB0E21F36FBB00F475A2 /* PBXContainerItemProxy */;
+		};
+		1F49FB1A21F36FBB00F475A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F49FAF821F36FB900F475A2 /* WordClock */;
+			targetProxy = 1F49FB1921F36FBB00F475A2 /* PBXContainerItemProxy */;
+		};
+		1F49FB2421F36FBB00F475A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F49FB2021F36FBB00F475A2 /* WordClock WatchKit App */;
+			targetProxy = 1F49FB2321F36FBB00F475A2 /* PBXContainerItemProxy */;
+		};
+		1F49FB3321F36FBC00F475A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F49FB2F21F36FBC00F475A2 /* WordClock WatchKit Extension */;
+			targetProxy = 1F49FB3221F36FBC00F475A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F49FB0021F36FB900F475A2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F49FB0121F36FB900F475A2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F49FB0521F36FBA00F475A2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F49FB0621F36FBA00F475A2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F49FB2621F36FBB00F475A2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F49FB2721F36FBB00F475A2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F49FB3C21F36FBD00F475A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F49FB3D21F36FBD00F475A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F49FB3F21F36FBD00F475A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = "WordClock WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClock.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		1F49FB4021F36FBD00F475A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = "WordClock WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClock.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		1F49FB4321F36FBD00F475A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				IBSC_MODULE = WordClock_WatchKit_Extension;
+				INFOPLIST_FILE = "WordClock WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClock.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		1F49FB4421F36FBD00F475A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				IBSC_MODULE = WordClock_WatchKit_Extension;
+				INFOPLIST_FILE = "WordClock WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClock.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		1F49FB4721F36FBD00F475A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = WordClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F49FB4821F36FBD00F475A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = WordClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F49FB4A21F36FBD00F475A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = WordClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordClock.app/WordClock";
+			};
+			name = Debug;
+		};
+		1F49FB4B21F36FBD00F475A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = WordClockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WordClock.app/WordClock";
+			};
+			name = Release;
+		};
+		1F49FB4D21F36FBD00F475A2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = WordClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordClock;
+			};
+			name = Debug;
+		};
+		1F49FB4E21F36FBD00F475A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ARGR5PW43B;
+				INFOPLIST_FILE = WordClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "-.WordClockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WordClock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F49FAF421F36FB900F475A2 /* Build configuration list for PBXProject "WordClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49FB3C21F36FBD00F475A2 /* Debug */,
+				1F49FB3D21F36FBD00F475A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49FB3E21F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClock WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49FB3F21F36FBD00F475A2 /* Debug */,
+				1F49FB4021F36FBD00F475A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49FB4221F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClock WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49FB4321F36FBD00F475A2 /* Debug */,
+				1F49FB4421F36FBD00F475A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49FB4621F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49FB4721F36FBD00F475A2 /* Debug */,
+				1F49FB4821F36FBD00F475A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49FB4921F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49FB4A21F36FBD00F475A2 /* Debug */,
+				1F49FB4B21F36FBD00F475A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F49FB4C21F36FBD00F475A2 /* Build configuration list for PBXNativeTarget "WordClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F49FB4D21F36FBD00F475A2 /* Debug */,
+				1F49FB4E21F36FBD00F475A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F49FAF121F36FB900F475A2 /* Project object */;
+}

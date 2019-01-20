@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch42" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="14460.16"/>
+    </dependencies>
+    <scenes>
+        <!--Watchface-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller identifier="Watchface" contentMode="top" spacing="0.0" fullBounds="YES" fullScreen="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="WordClock_WatchKit_Extension">
+                    <items>
+                        <group width="156" height="16" alignment="left" id="Pom-gK-1JZ">
+                            <items>
+                                <label width="25" alignment="left" alpha="0.94999999999999996" text="E S" textAlignment="left" id="QTn-X0-o8G"/>
+                                <label width="15" alignment="left" text="K" id="jnx-hC-FZj"/>
+                                <label width="40" alignment="left" text="I  S  T" textAlignment="left" numberOfLines="0" id="uGm-ED-oM0"/>
+                                <label width="12" alignment="left" text="A" id="LTp-EK-Uej"/>
+                                <label alignment="left" text="F Ü N F" id="fEx-fm-RPQ"/>
+                            </items>
+                        </group>
+                        <group width="156" height="17" alignment="left" id="hGB-7Q-Ahg">
+                            <items>
+                                <label width="54" alignment="left" text="Z E H N" textAlignment="left" id="Nzz-1i-VJc"/>
+                                <label width="102" alignment="left" text="Z W A N Z I  G" textAlignment="left" id="S1T-cs-x5z"/>
+                            </items>
+                        </group>
+                        <group width="156" height="16" alignment="left" id="Zlm-uR-W32">
+                            <items>
+                                <label width="54" alignment="left" text="D R E  I" textAlignment="left" id="6em-Ht-b1W">
+                                    <fontDescription key="font" type="system" pointSize="16"/>
+                                </label>
+                                <label width="100" alignment="left" text="V  I  E  R T E L" id="Mdk-eA-5GT"/>
+                            </items>
+                        </group>
+                        <group width="156" height="16" alignment="left" id="dfO-R1-ygY">
+                            <items>
+                                <label width="40" alignment="left" text="V O R" id="YWf-it-pKl"/>
+                                <label width="55" alignment="left" text="F U N K" id="Vq0-kU-lxl"/>
+                                <label width="54" alignment="left" text="N A C H" id="ITD-a6-Z6t"/>
+                            </items>
+                        </group>
+                        <group width="156" height="17" alignment="left" id="4oN-Ox-2Hc">
+                            <items>
+                                <label width="54" alignment="left" text="H A L B" id="GNi-Vm-B7Y"/>
+                                <label width="13" alignment="left" text="A" id="FP3-Jb-Ghi" userLabel="A"/>
+                                <label width="26" alignment="left" text="E L" id="gvH-D9-Ibb" userLabel="EL"/>
+                                <label width="12" alignment="left" text="F" id="ojU-cF-E2P" userLabel="F"/>
+                                <label width="39" alignment="left" text="Ü N F" id="0oj-hc-l8g" userLabel="UENF"/>
+                            </items>
+                        </group>
+                        <group width="156" height="17" alignment="left" id="wuH-z3-PCA">
+                            <items>
+                                <label width="38" alignment="left" text="E  I N" id="XIJ-pX-WKa"/>
+                                <label width="14" alignment="left" text="S" id="wBL-65-LPI"/>
+                                <label width="42" alignment="left" text="X Ä M" id="GJd-6t-rp8"/>
+                                <label alignment="left" text="Z W E I" id="MYb-N5-i9e"/>
+                            </items>
+                        </group>
+                        <group width="156" height="16" alignment="left" id="XWX-s3-z5v">
+                            <items>
+                                <label width="54" alignment="left" text="D R E  I" id="Vqy-pV-mxb"/>
+                                <label width="42" alignment="left" text="A U J" id="Fqe-0J-Abe"/>
+                                <label alignment="left" text="V  I E R" id="KCO-yS-q5y"/>
+                            </items>
+                        </group>
+                        <group width="156" height="16" alignment="left" id="OZF-9e-rly">
+                            <items>
+                                <label width="67" alignment="left" text="S E C H S" id="Z4s-Ba-lhb"/>
+                                <label width="28" alignment="left" text="N L" id="2Lm-yQ-jEn"/>
+                                <label alignment="left" text="A C H T" id="O9y-rJ-DyR"/>
+                            </items>
+                        </group>
+                        <group width="156" height="17" alignment="left" id="5oN-U1-ypl">
+                            <items>
+                                <label width="82" alignment="left" text="S  I E  B E N" numberOfLines="0" id="91G-eg-oJP"/>
+                                <label alignment="left" text="Z W Ö L F" id="cqa-Wa-r9Z"/>
+                            </items>
+                        </group>
+                        <group width="156" height="17" alignment="left" id="3sr-A4-Wov">
+                            <items>
+                                <label width="38" alignment="left" text="Z E H" id="ee6-0p-8V8"/>
+                                <label width="12" alignment="left" text="N" id="svI-58-5ty"/>
+                                <label width="43" alignment="left" text="E U N" id="p7Y-b3-FKU"/>
+                                <label width="12" alignment="left" text="K" id="cmP-KR-oXe"/>
+                                <label alignment="left" text="U H R" id="JeJ-fd-tc8"/>
+                            </items>
+                        </group>
+                    </items>
+                    <edgeInsets key="margins" left="0.0" right="0.0" top="0.0" bottom="0.0"/>
+                    <connections>
+                        <outlet property="A" destination="LTp-EK-Uej" id="Ic5-c5-TWZ"/>
+                        <outlet property="ACHT" destination="O9y-rJ-DyR" id="24K-ql-sJP"/>
+                        <outlet property="AUJ" destination="Fqe-0J-Abe" id="d7s-7m-DuJ"/>
+                        <outlet property="A_ELF" destination="FP3-Jb-Ghi" id="Gwn-xm-rk1"/>
+                        <outlet property="DREI" destination="Vqy-pV-mxb" id="Lhd-rE-ays"/>
+                        <outlet property="DREI_FAKE" destination="6em-Ht-b1W" id="2va-q2-Ial"/>
+                        <outlet property="EIN" destination="XIJ-pX-WKa" id="31V-Ys-kvF"/>
+                        <outlet property="EINS_S" destination="wBL-65-LPI" id="pUj-4Q-gEt"/>
+                        <outlet property="EL" destination="gvH-D9-Ibb" id="pSz-Qx-1aR"/>
+                        <outlet property="ES" destination="QTn-X0-o8G" id="BYe-AM-3es"/>
+                        <outlet property="EUN" destination="p7Y-b3-FKU" id="hoE-Yq-GhL"/>
+                        <outlet property="F" destination="ojU-cF-E2P" id="cYi-nP-Sqa"/>
+                        <outlet property="FUENF_Minuten" destination="fEx-fm-RPQ" id="ID7-t5-FV2"/>
+                        <outlet property="FUNK" destination="Vq0-kU-lxl" id="3tq-9n-t0C"/>
+                        <outlet property="HALB" destination="GNi-Vm-B7Y" id="H4S-Qx-wTQ"/>
+                        <outlet property="IST" destination="uGm-ED-oM0" id="PTu-GP-Gso"/>
+                        <outlet property="K" destination="jnx-hC-FZj" id="XKa-Ec-ez6"/>
+                        <outlet property="K_2" destination="cmP-KR-oXe" id="5ka-1k-txt"/>
+                        <outlet property="N" destination="svI-58-5ty" id="IV8-R9-m5M"/>
+                        <outlet property="NACH" destination="ITD-a6-Z6t" id="7OR-tz-l85"/>
+                        <outlet property="NL" destination="2Lm-yQ-jEn" id="brQ-I9-M6v"/>
+                        <outlet property="SECHS" destination="Z4s-Ba-lhb" id="FZi-Lb-1ZL"/>
+                        <outlet property="SIEBEN" destination="91G-eg-oJP" id="qPY-NW-2GB"/>
+                        <outlet property="UENF" destination="0oj-hc-l8g" id="gZe-xF-rtf"/>
+                        <outlet property="UHR" destination="JeJ-fd-tc8" id="Yi6-7m-gvc"/>
+                        <outlet property="VIER" destination="KCO-yS-q5y" id="lQh-Ig-5Rt"/>
+                        <outlet property="VIERTEL" destination="Mdk-eA-5GT" id="AfH-83-aPl"/>
+                        <outlet property="VOR" destination="YWf-it-pKl" id="KLu-68-sHK"/>
+                        <outlet property="XAEM" destination="GJd-6t-rp8" id="Jfe-fh-GZ7"/>
+                        <outlet property="ZEH" destination="ee6-0p-8V8" id="bo0-wJ-XXq"/>
+                        <outlet property="ZEHN_Minuten" destination="Nzz-1i-VJc" id="tNa-8J-ETP"/>
+                        <outlet property="ZWANZIG" destination="S1T-cs-x5z" id="Tw1-AJ-WxB"/>
+                        <outlet property="ZWEI" destination="MYb-N5-i9e" id="1kr-iJ-15w"/>
+                        <outlet property="ZWOELF" destination="cqa-Wa-r9Z" id="KWD-gm-sLw"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="118.56410256410257" y="32.692307692307693"/>
+        </scene>
+    </scenes>
+</document>
