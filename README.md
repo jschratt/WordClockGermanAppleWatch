@@ -7,4 +7,4 @@ stays when activate the Watch "Einstellungen/Allgemein/Display aktivieren  Beim 
 
 Have Fun with this Watchface :-)
 
-![alt text](https://github.com/jschratt/WordClockGermanAppleWatch/blob/master/IMG_1833.jpg)
+![alt text](https://github.com/jschratt/WordClockGermanAppleWatch/blob/master/IMG_1839.jpg)
