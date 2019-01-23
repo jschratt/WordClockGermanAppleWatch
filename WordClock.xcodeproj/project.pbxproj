@@ -13,7 +13,6 @@
 		1F49FB0421F36FBA00F475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB0321F36FBA00F475A2 /* Assets.xcassets */; };
 		1F49FB0721F36FBA00F475A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB0521F36FBA00F475A2 /* LaunchScreen.storyboard */; };
 		1F49FB1221F36FBB00F475A2 /* WordClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FB1121F36FBB00F475A2 /* WordClockTests.swift */; };
-		1F49FB1D21F36FBB00F475A2 /* WordClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F49FB1C21F36FBB00F475A2 /* WordClockUITests.swift */; };
 		1F49FB2221F36FBB00F475A2 /* WordClock WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F49FB2121F36FBB00F475A2 /* WordClock WatchKit App.app */; };
 		1F49FB2821F36FBB00F475A2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB2621F36FBB00F475A2 /* Interface.storyboard */; };
 		1F49FB2A21F36FBC00F475A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F49FB2921F36FBC00F475A2 /* Assets.xcassets */; };
@@ -91,8 +90,6 @@
 		1F49FB1121F36FBB00F475A2 /* WordClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordClockTests.swift; sourceTree = "<group>"; };
 		1F49FB1321F36FBB00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F49FB1821F36FBB00F475A2 /* WordClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F49FB1C21F36FBB00F475A2 /* WordClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordClockUITests.swift; sourceTree = "<group>"; };
-		1F49FB1E21F36FBB00F475A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1F49FB2121F36FBB00F475A2 /* WordClock WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WordClock WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F49FB2721F36FBB00F475A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		1F49FB2921F36FBC00F475A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -143,7 +140,6 @@
 			children = (
 				1F49FAFB21F36FB900F475A2 /* WordClock */,
 				1F49FB1021F36FBB00F475A2 /* WordClockTests */,
-				1F49FB1B21F36FBB00F475A2 /* WordClockUITests */,
 				1F49FB2521F36FBB00F475A2 /* WordClock WatchKit App */,
 				1F49FB3421F36FBC00F475A2 /* WordClock WatchKit Extension */,
 				1F49FAFA21F36FB900F475A2 /* Products */,
@@ -182,15 +178,6 @@
 				1F49FB1321F36FBB00F475A2 /* Info.plist */,
 			);
 			path = WordClockTests;
-			sourceTree = "<group>";
-		};
-		1F49FB1B21F36FBB00F475A2 /* WordClockUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1F49FB1C21F36FBB00F475A2 /* WordClockUITests.swift */,
-				1F49FB1E21F36FBB00F475A2 /* Info.plist */,
-			);
-			path = WordClockUITests;
 			sourceTree = "<group>";
 		};
 		1F49FB2521F36FBB00F475A2 /* WordClock WatchKit App */ = {
@@ -425,7 +412,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1F49FB1D21F36FBB00F475A2 /* WordClockUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
